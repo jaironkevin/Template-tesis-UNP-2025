@@ -92,33 +92,13 @@ Sección final del documento:
 - `apa.csl`: estilo de citación APA 7.
 - `sections.qmd`: contiene las secciones del cuerpo de la tesis, organizadas modularmente.
 
-## Ejemplo de cabecera en `index.qmd`
+## Descarga plantilla
 
-```yaml
-title: "Mi Tesis"
-subtitle: "Para graduarme"
-author: "Jairon Ojeda"
-date: "2024/12/31"
-format:
-  pdf:
-    pdf-engine: xelatex
-    citation-package: biblatex
-    keep-tex: true
-    documentclass: book
-    classoption: oneside
-    number-sections: true
-    toc: false
-    lang: es
-    geometry: "paperwidth=210mm, paperheight=297mm, left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm"
-    fig-pos: "H"
-execute:
-  echo: false
-  warning: false
-fig-cap-location: top
-include-in-header: Preamble.tex
-bibliography: references.bib
-csl: apa.csl
-link-citations: true
+Puede descragar la plantilla que esta comprimida con el nombre de **Template_tesis_UNP.rar**, la tesis esta con su contenido original de la tesis, asi que debera borrar el contenido. 
+
+
+
+
 ```
 **Créditos**
 
